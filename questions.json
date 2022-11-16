@@ -1,26 +1,62 @@
 [
   {
-    "question": "Inside which HTML element do we put the JavaScript??",
-    "choice1": "<script>",
-    "choice2": "<javascript>",
-    "choice3": "<js>",
-    "choice4": "<scripting>",
+    "question": "Які фільми тобі більш до вподоби?",
+    "choice1": "Наукова фантастика - Зіркові війни, Зоряний Шлях",
+    "choice2": "Фентезі - Володар перснів, Гаррі Поттер",
+    "answer": 2
+  },
+  {
+    "question": "Що спільне у слона та метелика?",
+    "choice1": "Вони мають хобот",
+    "choice2": "Вуха слона схожі на крила метелика",
+    "answer": 2
+  },
+  {
+    "question": "Коли ти щось робиш, тобі більше подобається бачити результат, чи сам процес роботи?",
+    "choice1": "Результат",
+    "choice2": "Процес",
     "answer": 1
   },
   {
-    "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
-    "choice1": "<script href='xxx.js'>",
-    "choice2": "<script name='xxx.js'>",
-    "choice3": "<script src='xxx.js'>",
-    "choice4": "<script file='xxx.js'>",
-    "answer": 3
+    "question": "Тебе бісить, коли на столі немає порядку",
+    "choice1": "Так",
+    "choice2": "Ні",
+    "answer": 1
   },
   {
-    "question": " How do you write 'Hello World' in an alert box?",
-    "choice1": "msgBox('Hello World');",
-    "choice2": "alertBox('Hello World');",
-    "choice3": "msg('Hello World');",
-    "choice4": "alert('Hello World');",
-    "answer": 4
+    "question": "Яку би машину ти обрав?",
+    "choice1": "Потужну, але не грану",
+    "choice2": "Гарну, але не потужну",
+    "answer": 2
+  },
+  {
+    "question": "Що ти більше полубляешь - малювати чи креслити?",
+    "choice1": "Малювати",
+    "choice2": "Креслити",
+    "answer": 1
+  },
+  {
+    "question": "У школі тобі більше подобалась математика чи історія",
+    "choice1": "Математика",
+    "choice2": "Історія",
+    "answer": 2
+  },
+  {
+    "question": "Ти полюбляєш більше задачі, які складаються з декількох простих завдань, або з одного складного.",
+    "choice1": "Багато простих",
+    "choice2": "Одне складне",
+    "answer": 1
+  },
+  {
+    "question": "Якщо в тебе щось не виходить, то ти",
+    "choice1": "Експерементую, поки не вирішу задачу",
+    "choice2": "Шукаю відповідь у інтернеті",
+    "answer": 2
+  },
+  {
+    "question": "Ти бі хотів, щоб твою роботу бачили, чи щоб вона була корисною",
+    "choice1": "Бачили",
+    "choice2": "Корисною",
+    "answer": 1
   }
 ]
