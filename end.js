@@ -2,7 +2,6 @@ const mostRecentScore = localStorage.getItem('mostRecentScore');
 let yourResult = document.getElementById('yourResult');
 let resultLink = document.getElementById('resultLink');
 
-
 if (mostRecentScore >= 0 && mostRecentScore <= 3) {
     //текст заголовку
     yourResult.innerText = 'На жаль, Ти справжній бек'
