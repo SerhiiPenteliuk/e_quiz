@@ -13,13 +13,7 @@ h2 {
     text-align: center;
 }
 
-@media screen and (max-width: 768px) {
-    h2 {
-        font-size: 2.5rem;
-    }
-}
-
-.choice-container:hover {
+.choice-container:hover, .choice-container:active {
     cursor: pointer;
     background-color: #AED99E;
 }
@@ -29,6 +23,8 @@ h2 {
     background-color: #AED99E;
     color: #354E5D;
     border-radius: 40px;
+    display: flex;
+    align-items: center;
 }
 
 .choice-text {
