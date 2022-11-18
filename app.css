@@ -1,5 +1,5 @@
 :root {
-    background-color: #F7F1D1;
+    background-color: white;
     font-size: 62.5%;
 }
 
@@ -30,13 +30,21 @@ h1 > span {
 }
 
 h2 {
-    font-size: 4.2rem;
+    align: center;
+    font-size: 2.0rem;
     margin-bottom: 4rem;
-    font-weight: 700;
+    font-weight: 300;
 }
 
 h3 {
-    font-size: 2.8rem;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+h4
+{
+    align: center;
+    font-size: 3.2rem;
     font-weight: 500;
 }
 
@@ -53,6 +61,7 @@ h3 {
 }
 
 .logo {
+    margin-top: 5%;
     margin-bottom: 5%;
     max-width: 30%;
 }
@@ -89,22 +98,22 @@ h3 {
     padding: 1rem 0;
     width: 20rem;
     text-align: center;
-    border: 0.1rem solid #AED99E;
+    border: 0.1rem solid #184d9b;
     margin-bottom: 1rem;
     text-decoration: none;
     border-radius: 40px;
-    color: #354E5D;
+    color: white;
     font-weight: 600;
     letter-spacing: 1px;
     text-transform: uppercase;
-    background-color: #AED99E;
+    background-color: #435570;
     transition: all 0.3s ease;
 }
 
 .btn:hover {
     cursor: pointer;
-    background-color: #9dc790;
-    color: #F7F1D1;
+    background-color: white;
+    color: #435570;
 }
 
 .btn[disabled]:hover {

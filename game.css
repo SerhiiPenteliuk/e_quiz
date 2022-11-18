@@ -3,10 +3,11 @@
     width: 100%;
     margin: 0 auto 1.5rem auto;
     font-size: 1.8rem;
-    border: 0.1rem solid #AED99E;
-    background-color: #F7F1D1;
+    border: 0.1rem solid #47556d;
+    background-color: #47556d;
     border-radius: 40px;
     transition: all 0.4s ease-in-out;
+    !color:white;
 }
 
 h2 {
@@ -17,13 +18,14 @@ h2 {
 .choice-container:focus,
 .choice-container:active {
     cursor: pointer;
-    background-color: #AED99E;
+    background-color: #184d9b;
+    !color: white;
 }
 
 .choice-prefix {
     padding: 1.5rem 2.5rem;
-    background-color: #AED99E;
-    color: #354E5D;
+    background-color: white;
+    color: #47556d;
     border-radius: 40px;
     display: flex;
     align-items: center;
@@ -32,6 +34,7 @@ h2 {
 .choice-text {
     padding: 1.5rem;
     width: 100%;
+    color:white;
 }
 
 /* HUD */
@@ -54,16 +57,16 @@ h2 {
 #progressBar {
     width: 20rem;
     height: 4rem;
-    border: 0.3rem solid #45B29F;
+    border: 0.3rem solid #47556d;
     margin-top: 1.5rem;
 }
 
 #progressBarFull {
     height: 3.4rem;
-    background-color: #45B29F;
+    background-color: #47556d;
     width: 0;
 }
 
 #progressText {
-    color: #354E5D;
+    color: #47556d;
 }
