@@ -13,10 +13,10 @@ if (mostRecentScore >= 0 && mostRecentScore <= 3) {
     )
 } else if (mostRecentScore >= 4 && mostRecentScore <= 6) {
     yourResult.innerText = 'Да ти фулстек!'
-    resultLink.innerText = 'Тримай лінку для'
+    resultLink.innerText = 'Тримай лінку для себе'
     resultLink.setAttribute('href', '#')
 } else {
     yourResult.innerText = 'Вітаю, Ти фронт!'
-    resultLink.innerText = 'Тримай лінку для'
+    resultLink.innerText = 'Тримай лінку для себе'
     resultLink.setAttribute('href', '#');
 }
