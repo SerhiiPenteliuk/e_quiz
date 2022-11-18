@@ -13,7 +13,9 @@ h2 {
     text-align: center;
 }
 
-.choice-container:hover, .choice-container:active {
+.choice-container:hover,
+.choice-container:focus,
+.choice-container:active {
     cursor: pointer;
     background-color: #AED99E;
 }
